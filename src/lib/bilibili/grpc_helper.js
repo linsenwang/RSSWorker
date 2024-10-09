@@ -3,9 +3,6 @@ import { Locale } from './gen/bilibili/metadata/locale/locale_pb.js';
 import { Network, NetworkType } from './gen/bilibili/metadata/network/network_pb.js';
 import { Metadata } from './gen/bilibili/metadata/metadata_pb.js';
 import { DynSpaceReq, DynSpaceRsp } from './gen/bilibili/app/dynamic/v2/dynamic_pb.js';
-import forge from 'node-forge/lib/index.js';
-import { connect } from 'cloudflare:sockets';
-var HPACK = require('hpack');
 
 const BASE_URL = 'https://grpc.biliapi.net';
 
